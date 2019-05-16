@@ -1,0 +1,355 @@
+EESchema Schematic File Version 4
+LIBS:indicator-fun-v3s-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3400 6850 3400 6750
+Wire Wire Line
+	3700 6850 3400 6850
+Wire Wire Line
+	1800 6850 1800 6750
+NoConn ~ 1800 6150
+Wire Wire Line
+	1400 5950 1800 5950
+Wire Wire Line
+	1400 6050 1800 6050
+Text Label 1400 5950 0    60   ~ 0
+SCL
+Text Label 1400 6050 0    60   ~ 0
+SDA
+Text Label 3800 5950 0    60   ~ 0
+Accel-Int2
+Text Label 3800 6050 0    60   ~ 0
+Accel-Int1
+Wire Wire Line
+	4100 5950 3400 5950
+Wire Wire Line
+	4100 6050 3400 6050
+Wire Wire Line
+	7050 2050 6700 2050
+Wire Wire Line
+	6700 1650 6700 1850
+Wire Wire Line
+	7050 1650 6700 1650
+Wire Wire Line
+	7050 1750 7050 1650
+Wire Wire Line
+	5000 1650 5300 1650
+Wire Wire Line
+	5000 1850 5300 1850
+Text Label 5000 1650 0    60   ~ 0
+SCL-1.8
+Text Label 5000 1850 0    60   ~ 0
+SDA-1.8
+Wire Wire Line
+	9600 2200 9600 2100
+Wire Wire Line
+	9950 1900 9600 1900
+Wire Wire Line
+	9950 1700 9600 1700
+Wire Wire Line
+	9950 1600 9600 1600
+Text Label 9950 1600 0    60   ~ 0
+SDA-1.8
+Text Label 9950 1700 0    60   ~ 0
+SCL-1.8
+Wire Wire Line
+	8800 5400 9300 5400
+Text Label 8900 5400 0    60   ~ 0
+Light-Int
+Wire Wire Line
+	11050 5200 10600 5200
+Text Label 10900 5200 0    60   ~ 0
+SCL
+Wire Wire Line
+	10700 6100 10700 5400
+Wire Wire Line
+	10100 6100 10700 6100
+Wire Wire Line
+	9300 5600 9300 6100
+Wire Wire Line
+	10900 5400 10700 5400
+Wire Wire Line
+	11050 5600 10600 5600
+Text Label 10900 5600 0    60   ~ 0
+SDA
+Connection ~ 1800 6850
+Connection ~ 1800 6750
+Connection ~ 3400 6850
+Connection ~ 3400 6750
+Connection ~ 3400 6650
+Connection ~ 6700 1650
+Connection ~ 9300 6100
+Connection ~ 10700 5400
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C31
+U 1 1 5C31F2D0
+P 7050 1850
+F 0 "C31" H 7300 1800 60  0000 R TNN
+F 1 "0.1uf" H 7400 1900 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7060 1760 60  0000 C CNN
+F 3 "" H 7060 1760 60  0000 C CNN
+	1    7050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SHTC1:SHTC1 U4
+U 1 1 5C31F2CC
+P 9100 1700
+F 0 "U4" H 8800 1900 60  0000 L BNN
+F 1 "Sensirion SHTC1" H 8800 1000 60  0000 L BNN
+F 2 "indicator-fun-v3s:Sensirion-SHTC1" H 9200 800 60  0000 C CNN
+F 3 "" H 8800 1000 60  0000 C CNN
+	1    9100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C34
+U 1 1 5C31F2C9
+P 10000 6100
+F 0 "C34" H 10090 6190 60  0000 L BNN
+F 1 "0.1uf" H 10090 5910 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10950 6300 60  0000 C CNN
+F 3 "" H 10090 5910 60  0000 C CNN
+	1    10000 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L LIS2DH12TR:LIS2DH12TR U6
+U 1 1 5C31F2C6
+P 2600 6650
+F 0 "U6" H 2100 7450 60  0000 L BNN
+F 1 "LIS2DH12TR" H 2100 6250 60  0000 L BNN
+F 2 "indicator-fun-v3s:LGA-12_1" H 2100 6250 60  0000 C CNN
+F 3 "" H 2100 6250 60  0000 C CNN
+	1    2600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5C31F2C5
+P 8800 5250
+F 0 "R23" V 8550 5300 60  0000 R TNN
+F 1 "10K" V 8650 5300 60  0000 R TNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8350 5250 60  0000 C CNN
+F 3 "" H 8900 5150 60  0000 C CNN
+	1    8800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SGP30:SGP30 U5
+U 1 1 5C31F2C4
+P 5600 2150
+F 0 "U5" H 5600 2750 60  0000 L BNN
+F 1 "SGP30" H 5600 2050 60  0000 L BNN
+F 2 "indicator-fun-v3s:SGP30" H 5600 2050 60  0000 C CNN
+F 3 "" H 5600 2050 60  0000 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BH1730FVC-TR:BH1730FVC-TR U3
+U 1 1 5C31F2C3
+P 9900 1000
+F 0 "U3" H 9600 -3100 60  0000 L BNN
+F 1 "Rohm BH1730FVC-TR" H 9600 -3800 60  0000 L BNN
+F 2 "indicator-fun-v3s:SOP6_1" H 9950 -2850 60  0000 C CNN
+F 3 "" H 9600 -3800 60  0000 C CNN
+	1    9900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6750 1800 6250
+Wire Wire Line
+	3400 6750 3400 6650
+Wire Wire Line
+	3400 6650 3400 6450
+Wire Wire Line
+	9300 6100 9300 6200
+Wire Wire Line
+	10700 5400 10600 5400
+Wire Wire Line
+	9300 6100 9800 6100
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C49
+U 1 1 5C336503
+P 1100 7050
+F 0 "C49" H 1300 6950 60  0000 L BNN
+F 1 "0.1uf" H 1190 6860 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 550 7500 60  0000 C CNN
+F 3 "" H 1190 6860 60  0000 C CNN
+	1    1100 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C70
+U 1 1 5C3368EA
+P 1600 7050
+F 0 "C70" H 1350 7100 60  0000 L BNN
+F 1 "22µF" H 1250 7000 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 7600 60  0000 C CNN
+F 3 "" H 1690 6860 60  0000 C CNN
+	1    1600 7050
+	-1   0    0    1   
+$EndComp
+Connection ~ 1600 6850
+Wire Wire Line
+	1600 6850 1800 6850
+Wire Wire Line
+	1100 7150 1600 7150
+Wire Wire Line
+	1100 6850 1600 6850
+Text GLabel 1400 5950 0    50   Input ~ 0
+SCL
+Text GLabel 1400 6050 0    50   Input ~ 0
+SDA
+Text GLabel 5000 1650 0    50   Input ~ 0
+SCL-1.8
+Text GLabel 5000 1850 0    50   Input ~ 0
+SDA-1.8
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V0103
+U 1 1 5C3679A9
+P 1100 6750
+F 0 "#V0103" H 1100 6750 50  0001 C CNN
+F 1 "+3V3" H 1100 6871 59  0000 C CNN
+F 2 "" H 1100 6750 50  0001 C CNN
+F 3 "" H 1100 6750 50  0001 C CNN
+	1    1100 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 6850
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0102
+U 1 1 5C367B0E
+P 3700 6950
+F 0 "#GND0102" H 3700 6950 50  0001 C CNN
+F 1 "GND" H 3700 6829 59  0000 C CNN
+F 2 "" H 3700 6950 50  0001 C CNN
+F 3 "" H 3700 6950 50  0001 C CNN
+	1    3700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0103
+U 1 1 5C367BC2
+P 1600 7250
+F 0 "#GND0103" H 1600 7250 50  0001 C CNN
+F 1 "GND" H 1600 7129 59  0000 C CNN
+F 2 "" H 1600 7250 50  0001 C CNN
+F 3 "" H 1600 7250 50  0001 C CNN
+	1    1600 7250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 7150
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0104
+U 1 1 5C367D25
+P 9300 6300
+F 0 "#GND0104" H 9300 6300 50  0001 C CNN
+F 1 "GND" H 9300 6179 59  0000 C CNN
+F 2 "" H 9300 6300 50  0001 C CNN
+F 3 "" H 9300 6300 50  0001 C CNN
+	1    9300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V0104
+U 1 1 5C367EEE
+P 10900 5300
+F 0 "#V0104" H 10900 5300 50  0001 C CNN
+F 1 "+3V3" H 11050 5250 59  0000 C CNN
+F 2 "" H 10900 5300 50  0001 C CNN
+F 3 "" H 10900 5300 50  0001 C CNN
+	1    10900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V0105
+U 1 1 5C368004
+P 8800 4900
+F 0 "#V0105" H 8800 4900 50  0001 C CNN
+F 1 "+3V3" H 8800 5021 59  0000 C CNN
+F 2 "" H 8800 4900 50  0001 C CNN
+F 3 "" H 8800 4900 50  0001 C CNN
+	1    8800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+1V8 #V0106
+U 1 1 5C36810C
+P 9950 1800
+F 0 "#V0106" H 9950 1800 50  0001 C CNN
+F 1 "+1V8" H 10100 1750 59  0000 C CNN
+F 2 "" H 9950 1800 50  0001 C CNN
+F 3 "" H 9950 1800 50  0001 C CNN
+	1    9950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0105
+U 1 1 5C36821C
+P 9600 2300
+F 0 "#GND0105" H 9600 2300 50  0001 C CNN
+F 1 "GND" H 9600 2179 59  0000 C CNN
+F 2 "" H 9600 2300 50  0001 C CNN
+F 3 "" H 9600 2300 50  0001 C CNN
+	1    9600 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 2200
+$Comp
+L indicator-fun-v3s-eagle-import:+1V8 #V0107
+U 1 1 5C3682C8
+P 7050 1550
+F 0 "#V0107" H 7050 1550 50  0001 C CNN
+F 1 "+1V8" H 7050 1671 59  0000 C CNN
+F 2 "" H 7050 1550 50  0001 C CNN
+F 3 "" H 7050 1550 50  0001 C CNN
+	1    7050 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 1650
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0106
+U 1 1 5C36831C
+P 7050 2150
+F 0 "#GND0106" H 7050 2150 50  0001 C CNN
+F 1 "GND" H 7050 2029 59  0000 C CNN
+F 2 "" H 7050 2150 50  0001 C CNN
+F 3 "" H 7050 2150 50  0001 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 2050
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND0107
+U 1 1 5C368379
+P 5300 2150
+F 0 "#GND0107" H 5300 2150 50  0001 C CNN
+F 1 "GND" H 5300 2029 59  0000 C CNN
+F 2 "" H 5300 2150 50  0001 C CNN
+F 3 "" H 5300 2150 50  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 5000 8800 5100
+Wire Wire Line
+	9300 5200 9300 5100
+Wire Wire Line
+	9300 5100 8800 5100
+Connection ~ 8800 5100
+$EndSCHEMATC

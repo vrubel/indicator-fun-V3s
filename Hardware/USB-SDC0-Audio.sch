@@ -1,0 +1,1352 @@
+EESchema Schematic File Version 4
+LIBS:indicator-fun-v3s-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 18206 13522
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4400 12450 4300 12450
+Text GLabel 4400 12450 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	15700 7600 15800 7600
+Wire Wire Line
+	15800 7600 15800 7700
+Wire Wire Line
+	15800 7700 15800 7800
+Wire Wire Line
+	15800 7800 15800 7900
+Wire Wire Line
+	15800 7900 15700 7900
+Wire Wire Line
+	15700 7800 15800 7800
+Wire Wire Line
+	15700 7700 15800 7700
+Wire Wire Line
+	15800 7700 15900 7700
+Connection ~ 15800 7800
+Connection ~ 15800 7700
+Text GLabel 15700 7600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7800 3200 7800 3000
+Text GLabel 7800 3200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6100 3300 6200 3300
+Text GLabel 6100 3300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2400 5300 2400 5400
+Wire Wire Line
+	2400 5400 2600 5400
+Wire Wire Line
+	2600 5400 2800 5400
+Wire Wire Line
+	2800 5400 2800 5300
+Wire Wire Line
+	2600 5400 2600 5500
+Connection ~ 2600 5400
+Text GLabel 2400 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3600 5500 3600 5400
+Wire Wire Line
+	3600 5400 3400 5400
+Wire Wire Line
+	3400 5400 3400 5300
+Wire Wire Line
+	3800 5300 3800 5400
+Wire Wire Line
+	3800 5400 3600 5400
+Connection ~ 3600 5400
+Text GLabel 3600 5500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4400 5300 4400 5400
+Text GLabel 4400 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2500 3600 2700 3600
+Text GLabel 2500 3600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2500 2900 2700 2900
+Text GLabel 2500 2900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2500 2500 2600 2500
+Text GLabel 2500 2500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2500 3900 3100 3900
+Text GLabel 2500 3900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8700 6000 8700 5900
+Text GLabel 8700 6000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9200 6000 9200 5900
+Text GLabel 9200 6000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	14400 8350 14400 7700
+Wire Wire Line
+	14400 7700 14500 7700
+Text GLabel 14400 8000 0    10   BiDi ~ 0
+GND
+Text GLabel 2600 10400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3900 12450 4000 12450
+Text GLabel 3900 12450 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	7600 5300 8300 5300
+Wire Wire Line
+	8300 5300 8300 5000
+Text GLabel 7600 5300 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	14500 7500 14400 7500
+Wire Wire Line
+	14400 7500 14400 7100
+Text GLabel 14500 7500 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	12100 7700 12100 7500
+Wire Wire Line
+	12100 7500 12100 7300
+Wire Wire Line
+	12100 7300 12100 7100
+Wire Wire Line
+	12100 7100 12100 7000
+Wire Wire Line
+	12300 7100 12100 7100
+Wire Wire Line
+	12300 7300 12100 7300
+Wire Wire Line
+	12300 7500 12100 7500
+Wire Wire Line
+	12300 7700 12100 7700
+Wire Wire Line
+	12300 7900 12100 7900
+Connection ~ 12100 7100
+Connection ~ 12100 7300
+Connection ~ 12100 7500
+Connection ~ 12100 7700
+Text GLabel 12100 7900 0    10   BiDi ~ 0
++3V3
+Wire Wire Line
+	7800 7400 8000 7400
+Text Label 8000 7400 0    70   ~ 0
+EPHY_TXP
+Wire Wire Line
+	7800 7200 8000 7200
+Text Label 8000 7200 0    70   ~ 0
+EPHY_TXN
+Wire Wire Line
+	7800 6800 7900 6800
+Text Label 7900 6800 0    70   ~ 0
+EPHY_RXN
+Wire Wire Line
+	7800 7000 7900 7000
+Text Label 7900 7000 0    70   ~ 0
+EPHY_RXP
+Wire Wire Line
+	5800 7300 5700 7300
+Text Label 5700 7300 2    70   ~ 0
+LINK_LED
+Wire Wire Line
+	5800 7600 5700 7600
+Text Label 5700 7600 2    70   ~ 0
+SPD_LED
+Wire Wire Line
+	2900 9800 3400 9800
+Wire Wire Line
+	3400 9800 3400 9750
+Text GLabel 2900 9800 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	5800 6800 5700 6800
+Text Label 5700 6800 2    70   ~ 0
+USB_D-
+Wire Wire Line
+	2900 10100 3100 10100
+Text Label 3100 10100 0    70   ~ 0
+USB_D-
+Wire Wire Line
+	5800 7000 5700 7000
+Text Label 5700 7000 2    70   ~ 0
+USB_D+
+Wire Wire Line
+	2900 10000 3100 10000
+Text Label 3100 10000 0    70   ~ 0
+USB_D+
+Wire Wire Line
+	7300 2600 6700 2600
+Wire Wire Line
+	7800 2700 7800 2600
+Wire Wire Line
+	7800 2600 7700 2600
+Wire Wire Line
+	7800 2600 8100 2600
+Connection ~ 7800 2600
+Text Label 8100 2600 0    70   ~ 0
+MIC_HBIAS
+Wire Wire Line
+	6100 5100 6000 5100
+Text Label 6000 5100 2    70   ~ 0
+MIC_HBIAS
+Wire Wire Line
+	6700 2700 6800 2700
+Text Label 6800 2700 0    70   ~ 0
+HP_R
+Wire Wire Line
+	7600 4900 7700 4900
+Text Label 7700 4900 0    70   ~ 0
+HP_R
+Wire Wire Line
+	6600 3300 6700 3300
+Wire Wire Line
+	7600 5100 7700 5100
+Text Label 7700 5100 0    70   ~ 0
+HP_L
+Wire Wire Line
+	6700 2900 6800 2900
+Text Label 6800 2900 0    70   ~ 0
+HP_L
+Wire Wire Line
+	7600 5900 7700 5900
+Text Label 7700 5900 0    70   ~ 0
+HP_COM
+Wire Wire Line
+	7000 3300 7100 3300
+Wire Wire Line
+	7100 3300 7100 3000
+Wire Wire Line
+	7100 3000 6700 3000
+Wire Wire Line
+	7100 3400 7100 3300
+Connection ~ 7100 3300
+Text Label 7100 3000 0    70   ~ 0
+HP_COM
+Wire Wire Line
+	7600 5700 7700 5700
+Text Label 7700 5700 0    70   ~ 0
+HP_COMFB
+Wire Wire Line
+	7100 3800 7100 3900
+Text Label 7100 3900 2    70   ~ 0
+HP_COMFB
+Wire Wire Line
+	6100 5900 6000 5900
+Text Label 6000 5900 2    70   ~ 0
+MICIN1P
+Wire Wire Line
+	4100 2900 4200 2900
+Text Label 4200 2900 0    70   ~ 0
+MICIN1P
+Wire Wire Line
+	6100 5700 6000 5700
+Text Label 6000 5700 2    70   ~ 0
+MICIN1N
+Wire Wire Line
+	4100 3600 4200 3600
+Text Label 4200 3600 0    70   ~ 0
+MICIN1N
+Wire Wire Line
+	6100 5300 6000 5300
+Text Label 6000 5300 2    70   ~ 0
+VRA2
+Wire Wire Line
+	3400 5000 3400 4800
+Wire Wire Line
+	3400 4800 3600 4800
+Wire Wire Line
+	3600 4800 3800 4800
+Wire Wire Line
+	3800 4800 3800 4900
+Wire Wire Line
+	3600 4800 3600 4700
+Connection ~ 3600 4800
+Text Label 3600 4700 0    70   ~ 0
+VRA2
+Wire Wire Line
+	6000 5500 6100 5500
+Text Label 6000 5500 2    70   ~ 0
+VRA1
+Wire Wire Line
+	4400 5000 4400 4800
+Text Label 4400 4800 0    70   ~ 0
+VRA1
+Wire Wire Line
+	2400 5000 2400 4900
+Wire Wire Line
+	2400 4900 2400 4800
+Wire Wire Line
+	2800 5000 2800 4900
+Wire Wire Line
+	2800 4900 2400 4900
+Connection ~ 2400 4900
+Text GLabel 2400 5000 0    10   BiDi ~ 0
++3V3A
+Wire Wire Line
+	2900 2500 3000 2500
+Wire Wire Line
+	3000 2500 3000 2300
+Wire Wire Line
+	3000 2500 3100 2500
+Connection ~ 3000 2500
+Text GLabel 2900 2500 0    10   BiDi ~ 0
++3V3A
+Wire Wire Line
+	3000 2900 3100 2900
+Wire Wire Line
+	3100 2900 3100 3200
+Wire Wire Line
+	3100 2900 3600 2900
+Wire Wire Line
+	3600 2900 3600 3100
+Wire Wire Line
+	3600 2900 3800 2900
+Wire Wire Line
+	3600 2900 3600 2500
+Wire Wire Line
+	3600 2500 3500 2500
+Wire Wire Line
+	2700 3200 3100 3200
+Connection ~ 3100 2900
+Connection ~ 3600 2900
+Wire Wire Line
+	3600 3400 3600 3600
+Wire Wire Line
+	3000 3600 3100 3600
+Wire Wire Line
+	3100 3600 3100 3300
+Wire Wire Line
+	3600 3600 3100 3600
+Wire Wire Line
+	3800 3600 3600 3600
+Wire Wire Line
+	3500 3900 3600 3900
+Wire Wire Line
+	3600 3900 3600 3600
+Wire Wire Line
+	2700 3300 3100 3300
+Connection ~ 3100 3600
+Connection ~ 3600 3600
+Wire Wire Line
+	13100 5200 13000 5200
+Text Label 13000 5200 2    70   ~ 0
+MCSI-CKP
+Wire Wire Line
+	13100 5000 13000 5000
+Text Label 13000 5000 2    70   ~ 0
+MCSI-CKN
+Wire Wire Line
+	14600 4800 14700 4800
+Text Label 14700 4800 0    70   ~ 0
+MCSI-D0P
+Wire Wire Line
+	14600 5000 14700 5000
+Text Label 14700 5000 0    70   ~ 0
+MCSI-D0N
+Wire Wire Line
+	14600 5200 14700 5200
+Text Label 14700 5200 0    70   ~ 0
+MCSI-D1P
+Wire Wire Line
+	14600 5400 14700 5400
+Text Label 14700 5400 0    70   ~ 0
+MCSI-D1N
+Wire Wire Line
+	7600 5500 8700 5500
+Wire Wire Line
+	8700 5500 9200 5500
+Wire Wire Line
+	9200 5500 9200 5600
+Wire Wire Line
+	8700 5600 8700 5500
+Connection ~ 8700 5500
+Wire Wire Line
+	13000 7400 14500 7400
+Wire Wire Line
+	12700 7500 13000 7500
+Wire Wire Line
+	13000 7500 13000 7400
+Text GLabel 13400 7400 2    70   BiDi ~ 0
+SDC0/CMD
+Wire Wire Line
+	12700 7300 14500 7300
+Text GLabel 13400 7300 2    70   BiDi ~ 0
+SDC0/D3
+Wire Wire Line
+	12800 7200 14500 7200
+Wire Wire Line
+	12800 7200 12800 7100
+Wire Wire Line
+	12800 7100 12700 7100
+Text GLabel 13400 7200 2    70   BiDi ~ 0
+SDC0/D2
+Text GLabel 13400 7900 2    70   BiDi ~ 0
+SDC0/D1
+Wire Wire Line
+	12900 7800 14500 7800
+Text GLabel 13400 7800 2    70   BiDi ~ 0
+SDC0/D0
+Wire Wire Line
+	13400 7600 14150 7600
+Text GLabel 13400 7600 2    70   BiDi ~ 0
+SDC0/CLK
+Wire Wire Line
+	2900 10200 3750 10200
+Text GLabel 4350 10200 2    70   BiDi ~ 0
+USB/ID
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C9
+U 1 0 2B9EDA2C38F91BEE
+P 4100 12450
+AR Path="/2B9EDA2C38F91BEE" Ref="C9"  Part="1" 
+AR Path="/5C22FC36/2B9EDA2C38F91BEE" Ref="C9"  Part="1" 
+F 0 "C9" V 4015 12290 59  0000 R TNN
+F 1 "100nF" V 4215 12290 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 12450 50  0001 C CNN
+F 3 "" H 4100 12450 50  0001 C CNN
+	1    4100 12450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V11
+U 1 0 DA9C168363D2F0C2
+P 3800 12450
+AR Path="/DA9C168363D2F0C2" Ref="#V11"  Part="1" 
+AR Path="/5C22FC36/DA9C168363D2F0C2" Ref="#V011"  Part="1" 
+F 0 "#V011" H 3800 12450 50  0001 C CNN
+F 1 "+3V3" H 3650 12475 59  0000 L BNN
+F 2 "" H 3800 12450 50  0001 C CNN
+F 3 "" H 3800 12450 50  0001 C CNN
+	1    3800 12450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND20
+U 1 0 1D4613EF2DF12463
+P 4500 12450
+AR Path="/1D4613EF2DF12463" Ref="#GND20"  Part="1" 
+AR Path="/5C22FC36/1D4613EF2DF12463" Ref="#GND020"  Part="1" 
+F 0 "#GND020" H 4500 12450 50  0001 C CNN
+F 1 "GND" H 4400 12350 59  0000 L BNN
+F 2 "" H 4500 12450 50  0001 C CNN
+F 3 "" H 4500 12450 50  0001 C CNN
+	1    4500 12450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V12
+U 1 0 478522CCB92CBE9F
+P 12100 6900
+AR Path="/478522CCB92CBE9F" Ref="#V12"  Part="1" 
+AR Path="/5C22FC36/478522CCB92CBE9F" Ref="#V012"  Part="1" 
+F 0 "#V012" H 12100 6900 50  0001 C CNN
+F 1 "+3V3" H 11950 6925 59  0000 L BNN
+F 2 "" H 12100 6900 50  0001 C CNN
+F 3 "" H 12100 6900 50  0001 C CNN
+	1    12100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND24
+U 1 0 D2BA7EC8664B2FAE
+P 14400 8450
+AR Path="/D2BA7EC8664B2FAE" Ref="#GND24"  Part="1" 
+AR Path="/5C22FC36/D2BA7EC8664B2FAE" Ref="#GND024"  Part="1" 
+F 0 "#GND024" H 14400 8450 50  0001 C CNN
+F 1 "GND" H 14300 8350 59  0000 L BNN
+F 2 "" H 14400 8450 50  0001 C CNN
+F 3 "" H 14400 8450 50  0001 C CNN
+	1    14400 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V21
+U 1 0 6E59F73C063ED727
+P 14400 7000
+AR Path="/6E59F73C063ED727" Ref="#V21"  Part="1" 
+AR Path="/5C22FC36/6E59F73C063ED727" Ref="#V021"  Part="1" 
+F 0 "#V021" H 14400 7000 50  0001 C CNN
+F 1 "+3V3" H 14250 7025 59  0000 L BNN
+F 2 "" H 14400 7000 50  0001 C CNN
+F 3 "" H 14400 7000 50  0001 C CNN
+	1    14400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND90
+U 1 0 D32989263EC27FB9
+P 16000 7700
+AR Path="/D32989263EC27FB9" Ref="#GND90"  Part="1" 
+AR Path="/5C22FC36/D32989263EC27FB9" Ref="#GND090"  Part="1" 
+F 0 "#GND090" H 16000 7700 50  0001 C CNN
+F 1 "GND" H 15900 7600 59  0000 L BNN
+F 2 "" H 16000 7700 50  0001 C CNN
+F 3 "" H 16000 7700 50  0001 C CNN
+	1    16000 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:TRANSFLASH-LOCK J1
+U 1 0 283100E32CE6A523
+P 15100 7500
+AR Path="/283100E32CE6A523" Ref="J1"  Part="1" 
+AR Path="/5C22FC36/283100E32CE6A523" Ref="J1"  Part="1" 
+F 0 "J1" H 14700 7920 42  0000 L BNN
+F 1 "TRANSFLASH-LOCK" H 14700 6900 42  0000 L BNN
+F 2 "indicator-fun-v3s:TRANSFLASH-LOCK-SOCK" H 15100 7500 50  0001 C CNN
+F 3 "" H 15100 7500 50  0001 C CNN
+	1    15100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:V3S U$1
+U 5 0 850A8AB0BABD3B33
+P 6800 7200
+AR Path="/850A8AB0BABD3B33" Ref="U$1"  Part="5" 
+AR Path="/5C22FC36/850A8AB0BABD3B33" Ref="U$1"  Part="5" 
+F 0 "U$1" H 6800 7200 50  0001 C CNN
+F 1 "V3S" H 6800 7200 50  0001 C CNN
+F 2 "indicator-fun-v3s:LQFP-128_14x14mm_P0.4mm" H 6800 7200 50  0001 C CNN
+F 3 "" H 6800 7200 50  0001 C CNN
+	5    6800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R15
+U 1 0 6F989C1CA4DA1F49
+P 6400 3300
+AR Path="/6F989C1CA4DA1F49" Ref="R15"  Part="1" 
+AR Path="/5C22FC36/6F989C1CA4DA1F49" Ref="R15"  Part="1" 
+F 0 "R15" H 6350 3241 59  0000 R TNN
+F 1 "22" H 6350 3370 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 3300 50  0001 C CNN
+F 3 "" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:V3S U$1
+U 3 0 850A8AB0BABD3B2B
+P 13800 5100
+AR Path="/850A8AB0BABD3B2B" Ref="U$1"  Part="3" 
+AR Path="/5C22FC36/850A8AB0BABD3B2B" Ref="U$1"  Part="3" 
+F 0 "U$1" H 13800 5100 50  0001 C CNN
+F 1 "V3S" H 13800 5100 50  0001 C CNN
+F 2 "indicator-fun-v3s:LQFP-128_14x14mm_P0.4mm" H 13800 5100 50  0001 C CNN
+F 3 "" H 13800 5100 50  0001 C CNN
+	3    13800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:V3S U$1
+U 1 0 850A8AB0BABD3B23
+P 6800 5400
+AR Path="/850A8AB0BABD3B23" Ref="U$1"  Part="1" 
+AR Path="/5C22FC36/850A8AB0BABD3B23" Ref="U$1"  Part="1" 
+F 0 "U$1" H 6800 5400 50  0001 C CNN
+F 1 "V3S" H 6800 5400 50  0001 C CNN
+F 2 "indicator-fun-v3s:LQFP-128_14x14mm_P0.4mm" H 6800 5400 50  0001 C CNN
+F 3 "" H 6800 5400 50  0001 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:AUDIO_JACK_TRRSSMD_RA J2
+U 1 0 9476A0D1D27BF6B5
+P 6500 2800
+AR Path="/9476A0D1D27BF6B5" Ref="J2"  Part="1" 
+AR Path="/5C22FC36/9476A0D1D27BF6B5" Ref="J2"  Part="1" 
+F 0 "J2" H 6300 3020 70  0000 L BNN
+F 1 "AUDIO_JACK_SMD" H 6100 2500 70  0000 L BNN
+F 2 "indicator-fun-v3s:AUDIO_JACK_3.5MM_TRRS_SMD_RA" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R25
+U 1 0 8CE3D0E3A6B2995B
+P 7500 2600
+AR Path="/8CE3D0E3A6B2995B" Ref="R25"  Part="1" 
+AR Path="/5C22FC36/8CE3D0E3A6B2995B" Ref="R25"  Part="1" 
+F 0 "R25" H 7450 2541 59  0000 R TNN
+F 1 "2k" H 7450 2670 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 2600 50  0001 C CNN
+F 3 "" H 7500 2600 50  0001 C CNN
+	1    7500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND52
+U 1 0 4C2E9A1697122CDC
+P 7800 3300
+AR Path="/4C2E9A1697122CDC" Ref="#GND52"  Part="1" 
+AR Path="/5C22FC36/4C2E9A1697122CDC" Ref="#GND052"  Part="1" 
+F 0 "#GND052" H 7800 3300 50  0001 C CNN
+F 1 "GND" H 7700 3200 59  0000 L BNN
+F 2 "" H 7800 3300 50  0001 C CNN
+F 3 "" H 7800 3300 50  0001 C CNN
+	1    7800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND53
+U 1 0 65A4B075B7E5E056
+P 6000 3300
+AR Path="/65A4B075B7E5E056" Ref="#GND53"  Part="1" 
+AR Path="/5C22FC36/65A4B075B7E5E056" Ref="#GND053"  Part="1" 
+F 0 "#GND053" H 6000 3300 50  0001 C CNN
+F 1 "GND" H 5900 3200 59  0000 L BNN
+F 2 "" H 6000 3300 50  0001 C CNN
+F 3 "" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C17
+U 1 0 7F4FAA0C0930454B
+P 7800 2800
+AR Path="/7F4FAA0C0930454B" Ref="C17"  Part="1" 
+AR Path="/5C22FC36/7F4FAA0C0930454B" Ref="C17"  Part="1" 
+F 0 "C17" V 7715 2640 59  0000 R TNN
+F 1 "1µF" V 7915 2640 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 2800 50  0001 C CNN
+F 3 "" H 7800 2800 50  0001 C CNN
+	1    7800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C18
+U 1 0 DDC469504DA42C9A
+P 6800 3300
+AR Path="/DDC469504DA42C9A" Ref="C18"  Part="1" 
+AR Path="/5C22FC36/DDC469504DA42C9A" Ref="C18"  Part="1" 
+F 0 "C18" V 6885 3360 59  0000 L BNN
+F 1 "100nF" V 6615 3440 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 3300 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R26
+U 1 0 6BB46A3649E84652
+P 7100 3600
+AR Path="/6BB46A3649E84652" Ref="R26"  Part="1" 
+AR Path="/5C22FC36/6BB46A3649E84652" Ref="R26"  Part="1" 
+F 0 "R26" H 7050 3541 59  0000 R TNN
+F 1 "0" H 7050 3670 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3A #V13
+U 1 0 95113115176414C0
+P 2400 4700
+AR Path="/95113115176414C0" Ref="#V13"  Part="1" 
+AR Path="/5C22FC36/95113115176414C0" Ref="#V013"  Part="1" 
+F 0 "#V013" H 2400 4700 50  0001 C CNN
+F 1 "+3V3A" H 2250 4725 59  0000 L BNN
+F 2 "" H 2400 4700 50  0001 C CNN
+F 3 "" H 2400 4700 50  0001 C CNN
+	1    2400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0805 C16
+U 1 0 AA00DC91C8289A19
+P 2400 5200
+AR Path="/AA00DC91C8289A19" Ref="C16"  Part="1" 
+AR Path="/5C22FC36/AA00DC91C8289A19" Ref="C16"  Part="1" 
+F 0 "C16" V 2485 5260 59  0000 L BNN
+F 1 "10µF" V 2215 5340 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 5200 50  0001 C CNN
+F 3 "" H 2400 5200 50  0001 C CNN
+	1    2400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C19
+U 1 0 27308BA0429AAC70
+P 2800 5200
+AR Path="/27308BA0429AAC70" Ref="C19"  Part="1" 
+AR Path="/5C22FC36/27308BA0429AAC70" Ref="C19"  Part="1" 
+F 0 "C19" V 2885 5260 59  0000 L BNN
+F 1 "100nF" V 2615 5340 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 5200 50  0001 C CNN
+F 3 "" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND8
+U 1 0 167E2C6ADF24F9E8
+P 2600 5600
+AR Path="/167E2C6ADF24F9E8" Ref="#GND8"  Part="1" 
+AR Path="/5C22FC36/167E2C6ADF24F9E8" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 2600 5600 50  0001 C CNN
+F 1 "GND" H 2500 5500 59  0000 L BNN
+F 2 "" H 2600 5600 50  0001 C CNN
+F 3 "" H 2600 5600 50  0001 C CNN
+	1    2600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0805 C20
+U 1 0 E3294C4E37547D18
+P 3400 5200
+AR Path="/E3294C4E37547D18" Ref="C20"  Part="1" 
+AR Path="/5C22FC36/E3294C4E37547D18" Ref="C20"  Part="1" 
+F 0 "C20" V 3485 5260 59  0000 L BNN
+F 1 "10µF" V 3215 5340 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 5200 50  0001 C CNN
+F 3 "" H 3400 5200 50  0001 C CNN
+	1    3400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R27
+U 1 0 C0378EAB3A8C453D
+P 3800 5100
+AR Path="/C0378EAB3A8C453D" Ref="R27"  Part="1" 
+AR Path="/5C22FC36/C0378EAB3A8C453D" Ref="R27"  Part="1" 
+F 0 "R27" H 3750 5041 59  0000 R TNN
+F 1 "200k 1%" H 3750 5170 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND54
+U 1 0 B2E0E96F28BF559
+P 3600 5600
+AR Path="/B2E0E96F28BF559" Ref="#GND54"  Part="1" 
+AR Path="/5C22FC36/B2E0E96F28BF559" Ref="#GND054"  Part="1" 
+F 0 "#GND054" H 3600 5600 50  0001 C CNN
+F 1 "GND" H 3500 5500 59  0000 L BNN
+F 2 "" H 3600 5600 50  0001 C CNN
+F 3 "" H 3600 5600 50  0001 C CNN
+	1    3600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C21
+U 1 0 13892E5A38F280A0
+P 4400 5200
+AR Path="/13892E5A38F280A0" Ref="C21"  Part="1" 
+AR Path="/5C22FC36/13892E5A38F280A0" Ref="C21"  Part="1" 
+F 0 "C21" V 4485 5260 59  0000 L BNN
+F 1 "1µF" V 4215 5340 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 5200 50  0001 C CNN
+F 3 "" H 4400 5200 50  0001 C CNN
+	1    4400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND55
+U 1 0 4FDFD77FC8E78D2D
+P 4400 5500
+AR Path="/4FDFD77FC8E78D2D" Ref="#GND55"  Part="1" 
+AR Path="/5C22FC36/4FDFD77FC8E78D2D" Ref="#GND055"  Part="1" 
+F 0 "#GND055" H 4400 5500 50  0001 C CNN
+F 1 "GND" H 4300 5400 59  0000 L BNN
+F 2 "" H 4400 5500 50  0001 C CNN
+F 3 "" H 4400 5500 50  0001 C CNN
+	1    4400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND56
+U 1 0 F0E523FA24E1D674
+P 2400 3900
+AR Path="/F0E523FA24E1D674" Ref="#GND56"  Part="1" 
+AR Path="/5C22FC36/F0E523FA24E1D674" Ref="#GND056"  Part="1" 
+F 0 "#GND056" H 2400 3900 50  0001 C CNN
+F 1 "GND" H 2300 3800 59  0000 L BNN
+F 2 "" H 2400 3900 50  0001 C CNN
+F 3 "" H 2400 3900 50  0001 C CNN
+	1    2400 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R30
+U 1 0 7F1F3043CF223410
+P 3300 2500
+AR Path="/7F1F3043CF223410" Ref="R30"  Part="1" 
+AR Path="/5C22FC36/7F1F3043CF223410" Ref="R30"  Part="1" 
+F 0 "R30" H 3150 2559 59  0000 L BNN
+F 1 "2k" H 3150 2370 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 2500 50  0001 C CNN
+F 3 "" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C23
+U 1 0 DED56EC0D75966
+P 2800 2900
+AR Path="/DED56EC0D75966" Ref="C23"  Part="1" 
+AR Path="/5C22FC36/DED56EC0D75966" Ref="C23"  Part="1" 
+F 0 "C23" H 2860 2915 59  0000 L BNN
+F 1 "33pF" H 2860 2715 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 2900 50  0001 C CNN
+F 3 "" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C24
+U 1 0 B0B03C8377DB1C18
+P 2800 3600
+AR Path="/B0B03C8377DB1C18" Ref="C24"  Part="1" 
+AR Path="/5C22FC36/B0B03C8377DB1C18" Ref="C24"  Part="1" 
+F 0 "C24" H 2860 3615 59  0000 L BNN
+F 1 "33pF" H 2860 3415 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 3600 50  0001 C CNN
+F 3 "" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND57
+U 1 0 8647E2494BC0C1E5
+P 2400 3600
+AR Path="/8647E2494BC0C1E5" Ref="#GND57"  Part="1" 
+AR Path="/5C22FC36/8647E2494BC0C1E5" Ref="#GND057"  Part="1" 
+F 0 "#GND057" H 2400 3600 50  0001 C CNN
+F 1 "GND" H 2300 3500 59  0000 L BNN
+F 2 "" H 2400 3600 50  0001 C CNN
+F 3 "" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND58
+U 1 0 96F73E150D44CE24
+P 2400 2900
+AR Path="/96F73E150D44CE24" Ref="#GND58"  Part="1" 
+AR Path="/5C22FC36/96F73E150D44CE24" Ref="#GND058"  Part="1" 
+F 0 "#GND058" H 2400 2900 50  0001 C CNN
+F 1 "GND" H 2300 2800 59  0000 L BNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C25
+U 1 0 D73F7BACF2431960
+P 3600 3300
+AR Path="/D73F7BACF2431960" Ref="C25"  Part="1" 
+AR Path="/5C22FC36/D73F7BACF2431960" Ref="C25"  Part="1" 
+F 0 "C25" H 3660 3315 59  0000 L BNN
+F 1 "100pF" H 3660 3115 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND59
+U 1 0 48DBC90944E035C1
+P 2400 2500
+AR Path="/48DBC90944E035C1" Ref="#GND59"  Part="1" 
+AR Path="/5C22FC36/48DBC90944E035C1" Ref="#GND059"  Part="1" 
+F 0 "#GND059" H 2400 2500 50  0001 C CNN
+F 1 "GND" H 2300 2400 59  0000 L BNN
+F 2 "" H 2400 2500 50  0001 C CNN
+F 3 "" H 2400 2500 50  0001 C CNN
+	1    2400 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C26
+U 1 0 62CE581599EA62CC
+P 2700 2500
+AR Path="/62CE581599EA62CC" Ref="C26"  Part="1" 
+AR Path="/5C22FC36/62CE581599EA62CC" Ref="C26"  Part="1" 
+F 0 "C26" H 2760 2515 59  0000 L BNN
+F 1 "33pF" H 2760 2315 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 2500 50  0001 C CNN
+F 3 "" H 2700 2500 50  0001 C CNN
+	1    2700 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3A #V22
+U 1 0 F21025188931440B
+P 3000 2200
+AR Path="/F21025188931440B" Ref="#V22"  Part="1" 
+AR Path="/5C22FC36/F21025188931440B" Ref="#V022"  Part="1" 
+F 0 "#V022" H 3000 2200 50  0001 C CNN
+F 1 "+3V3A" H 2850 2225 59  0000 L BNN
+F 2 "" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C27
+U 1 0 D4D2449736F0CB85
+P 4000 2900
+AR Path="/D4D2449736F0CB85" Ref="C27"  Part="1" 
+AR Path="/5C22FC36/D4D2449736F0CB85" Ref="C27"  Part="1" 
+F 0 "C27" H 4060 2915 59  0000 L BNN
+F 1 "100nF" H 4060 2715 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C28
+U 1 0 8F200C7205E275C3
+P 4000 3600
+AR Path="/8F200C7205E275C3" Ref="C28"  Part="1" 
+AR Path="/5C22FC36/8F200C7205E275C3" Ref="C28"  Part="1" 
+F 0 "C28" H 4060 3615 59  0000 L BNN
+F 1 "100nF" H 4060 3415 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 3600 50  0001 C CNN
+F 3 "" H 4000 3600 50  0001 C CNN
+	1    4000 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R28
+U 1 0 35817517EFDBCC36
+P 3300 3900
+AR Path="/35817517EFDBCC36" Ref="R28"  Part="1" 
+AR Path="/5C22FC36/35817517EFDBCC36" Ref="R28"  Part="1" 
+F 0 "R28" H 3150 3959 59  0000 L BNN
+F 1 "2k" H 3150 3770 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 3900 50  0001 C CNN
+F 3 "" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V24
+U 1 0 F18181D8E5F6AC25
+P 8300 4900
+AR Path="/F18181D8E5F6AC25" Ref="#V24"  Part="1" 
+AR Path="/5C22FC36/F18181D8E5F6AC25" Ref="#V024"  Part="1" 
+F 0 "#V024" H 8300 4900 50  0001 C CNN
+F 1 "+3V3" H 8150 4925 59  0000 L BNN
+F 2 "" H 8300 4900 50  0001 C CNN
+F 3 "" H 8300 4900 50  0001 C CNN
+	1    8300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0805 C29
+U 1 0 EC4831814E7D8F82
+P 9200 5800
+AR Path="/EC4831814E7D8F82" Ref="C29"  Part="1" 
+AR Path="/5C22FC36/EC4831814E7D8F82" Ref="C29"  Part="1" 
+F 0 "C29" H 9440 5685 59  0000 R TNN
+F 1 "10µF" H 9440 5885 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9200 5800 50  0001 C CNN
+F 3 "" H 9200 5800 50  0001 C CNN
+	1    9200 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND61
+U 1 0 2BBC3C5CD91DE639
+P 8700 6100
+AR Path="/2BBC3C5CD91DE639" Ref="#GND61"  Part="1" 
+AR Path="/5C22FC36/2BBC3C5CD91DE639" Ref="#GND061"  Part="1" 
+F 0 "#GND061" H 8700 6100 50  0001 C CNN
+F 1 "GND" H 8600 6000 59  0000 L BNN
+F 2 "" H 8700 6100 50  0001 C CNN
+F 3 "" H 8700 6100 50  0001 C CNN
+	1    8700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C22
+U 1 0 6DA554679DAD5B4
+P 8700 5700
+AR Path="/6DA554679DAD5B4" Ref="C22"  Part="1" 
+AR Path="/5C22FC36/6DA554679DAD5B4" Ref="C22"  Part="1" 
+F 0 "C22" H 8460 5715 59  0000 L BNN
+F 1 "100nF" H 8360 5515 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8700 5700 50  0001 C CNN
+F 3 "" H 8700 5700 50  0001 C CNN
+	1    8700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND62
+U 1 0 95F86196F68AF8FF
+P 9200 6100
+AR Path="/95F86196F68AF8FF" Ref="#GND62"  Part="1" 
+AR Path="/5C22FC36/95F86196F68AF8FF" Ref="#GND062"  Part="1" 
+F 0 "#GND062" H 9200 6100 50  0001 C CNN
+F 1 "GND" H 9100 6000 59  0000 L BNN
+F 2 "" H 9200 6100 50  0001 C CNN
+F 3 "" H 9200 6100 50  0001 C CNN
+	1    9200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:ELECTRET_MICROPHON-F6035AP MIC
+U 1 0 8CC3F9C69FD73AE4
+P 2500 3300
+AR Path="/8CC3F9C69FD73AE4" Ref="MIC"  Part="1" 
+AR Path="/5C22FC36/8CC3F9C69FD73AE4" Ref="MIC1"  Part="1" 
+F 0 "MIC1" H 2500 3300 50  0001 C CNN
+F 1 "ELECTRET_MICROPHON-F6035AP" H 2500 3300 50  0001 C CNN
+F 2 "indicator-fun-v3s:F6035AP" H 2500 3300 50  0001 C CNN
+F 3 "" H 2500 3300 50  0001 C CNN
+	1    2500 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
+U 1 0 AFA1633BFFC1ED88
+P 12500 7100
+AR Path="/AFA1633BFFC1ED88" Ref="RN2"  Part="1" 
+AR Path="/5C22FC36/AFA1633BFFC1ED88" Ref="RN2"  Part="1" 
+F 0 "RN2" H 12300 6980 59  0000 L BNN
+F 1 "4R-NEXB38V" H 12600 6980 59  0000 L BNN
+F 2 "indicator-fun-v3s:EXB38V" H 12500 7100 50  0001 C CNN
+F 3 "" H 12500 7100 50  0001 C CNN
+	1    12500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
+U 2 0 AFA1633BFFC1ED84
+P 12500 7300
+AR Path="/AFA1633BFFC1ED84" Ref="RN2"  Part="2" 
+AR Path="/5C22FC36/AFA1633BFFC1ED84" Ref="RN2"  Part="2" 
+F 0 "RN2" H 12300 7180 59  0000 L BNN
+F 1 "4R-NEXB38V" H 12600 7180 59  0000 L BNN
+F 2 "indicator-fun-v3s:EXB38V" H 12500 7300 50  0001 C CNN
+F 3 "" H 12500 7300 50  0001 C CNN
+	2    12500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
+U 3 0 AFA1633BFFC1ED80
+P 12500 7500
+AR Path="/AFA1633BFFC1ED80" Ref="RN2"  Part="3" 
+AR Path="/5C22FC36/AFA1633BFFC1ED80" Ref="RN2"  Part="3" 
+F 0 "RN2" H 12300 7380 59  0000 L BNN
+F 1 "4R-NEXB38V" H 12600 7380 59  0000 L BNN
+F 2 "indicator-fun-v3s:EXB38V" H 12500 7500 50  0001 C CNN
+F 3 "" H 12500 7500 50  0001 C CNN
+	3    12500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
+U 4 0 AFA1633BFFC1ED9C
+P 12500 7700
+AR Path="/AFA1633BFFC1ED9C" Ref="RN2"  Part="4" 
+AR Path="/5C22FC36/AFA1633BFFC1ED9C" Ref="RN2"  Part="4" 
+F 0 "RN2" H 12300 7580 59  0000 L BNN
+F 1 "4R-NEXB38V" H 12600 7580 59  0000 L BNN
+F 2 "indicator-fun-v3s:EXB38V" H 12500 7700 50  0001 C CNN
+F 3 "" H 12500 7700 50  0001 C CNN
+	4    12500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R2
+U 1 0 7B9B72E8B0DE96FC
+P 12500 7900
+AR Path="/7B9B72E8B0DE96FC" Ref="R2"  Part="1" 
+AR Path="/5C22FC36/7B9B72E8B0DE96FC" Ref="R2"  Part="1" 
+F 0 "R2" H 12350 7959 59  0000 L BNN
+F 1 "47k" H 12550 7970 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12500 7900 50  0001 C CNN
+F 3 "" H 12500 7900 50  0001 C CNN
+	1    12500 7900
+	-1   0    0    1   
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+5V #P+1
+U 1 0 93600057BCDF72C5
+P 3400 9500
+AR Path="/93600057BCDF72C5" Ref="#P+1"  Part="1" 
+AR Path="/5C22FC36/93600057BCDF72C5" Ref="#P+01"  Part="1" 
+F 0 "#P+01" H 3400 9500 50  0001 C CNN
+F 1 "+5V" V 3300 9300 59  0000 L BNN
+F 2 "" H 3400 9500 50  0001 C CNN
+F 3 "" H 3400 9500 50  0001 C CNN
+	1    3400 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND15
+U 1 0 CBE454F257B06B4
+P 2600 10500
+AR Path="/CBE454F257B06B4" Ref="#GND15"  Part="1" 
+AR Path="/5C22FC36/CBE454F257B06B4" Ref="#GND015"  Part="1" 
+F 0 "#GND015" H 2600 10500 50  0001 C CNN
+F 1 "GND" H 2500 10400 59  0000 L BNN
+F 2 "" H 2600 10500 50  0001 C CNN
+F 3 "" H 2600 10500 50  0001 C CNN
+	1    2600 10500
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 4400 0    170  ~ 0
+Audio Codec
+Text Notes 14800 4200 0    170  ~ 0
+MIPI CSI
+Text Notes 14800 6800 0    170  ~ 0
+SDC0
+Text Notes 4400 10000 0    170  ~ 0
+USB Device
+Text Notes 2200 1800 0    215  ~ 0
+USB / SDC0 / Audio
+$Comp
+L indicator-fun:USB_B_Micro J3
+U 1 1 5C39FE84
+P 2600 10000
+F 0 "J3" H 2655 10467 50  0000 C CNN
+F 1 "USB_B_Micro OTG" H 2655 10376 50  0000 C CNN
+F 2 "indicator-fun-v3s:USB-B-Micro" H 2750 9950 50  0001 C CNN
+F 3 "~" H 2750 9950 50  0001 C CNN
+	1    2600 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R?
+U 1 0 5C495EF7
+P 3750 9950
+AR Path="/5C495EF7" Ref="R?"  Part="1" 
+AR Path="/5C22FC36/5C495EF7" Ref="R5"  Part="1" 
+F 0 "R5" H 3700 9891 59  0000 R TNN
+F 1 "100k" H 3700 10020 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 9950 50  0001 C CNN
+F 3 "" H 3750 9950 50  0001 C CNN
+	1    3750 9950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 10150 3750 10200
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R?
+U 1 0 5C49C7E3
+P 4050 10200
+AR Path="/5C49C7E3" Ref="R?"  Part="1" 
+AR Path="/5C22FC36/5C49C7E3" Ref="R6"  Part="1" 
+F 0 "R6" H 4100 10150 59  0000 R TNN
+F 1 "1k" H 4000 10270 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 10200 50  0001 C CNN
+F 3 "" H 4050 10200 50  0001 C CNN
+	1    4050 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 10200 3750 10200
+Wire Wire Line
+	4250 10200 4350 10200
+Wire Wire Line
+	3750 9750 3400 9750
+Connection ~ 3400 9750
+Wire Wire Line
+	3400 9750 3400 9600
+Wire Wire Line
+	12100 7700 12100 7900
+Wire Wire Line
+	12900 7800 12900 7700
+Wire Wire Line
+	12900 7700 12700 7700
+Wire Wire Line
+	12700 7900 14500 7900
+$Comp
+L indicator-fun-v3s-eagle-import:C-EUC0603 C?
+U 1 0 5C4E7C07
+P 14150 8100
+AR Path="/5C4E7C07" Ref="C?"  Part="1" 
+AR Path="/5C22FC36/5C4E7C07" Ref="C5"  Part="1" 
+F 0 "C5" H 14050 8150 59  0000 R TNN
+F 1 "4.7pF" H 14100 8000 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14150 8100 50  0001 C CNN
+F 3 "" H 14150 8100 50  0001 C CNN
+	1    14150 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 8000 14150 7600
+Connection ~ 14150 7600
+Wire Wire Line
+	14150 7600 14500 7600
+Wire Wire Line
+	14150 8300 14150 8350
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND?
+U 1 0 5C4F4D25
+P 14150 8450
+AR Path="/5C4F4D25" Ref="#GND?"  Part="1" 
+AR Path="/5C22FC36/5C4F4D25" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 14150 8450 50  0001 C CNN
+F 1 "GND" H 14050 8350 59  0000 L BNN
+F 2 "" H 14150 8450 50  0001 C CNN
+F 3 "" H 14150 8450 50  0001 C CNN
+	1    14150 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 10200
+Text GLabel 2600 11750 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2900 11150 3400 11150
+Text GLabel 2900 11150 0    10   BiDi ~ 0
++5V
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND?
+U 1 0 5C75B161
+P 2600 11850
+AR Path="/5C75B161" Ref="#GND?"  Part="1" 
+AR Path="/5C22FC36/5C75B161" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 2600 11850 50  0001 C CNN
+F 1 "GND" H 2500 11750 59  0000 L BNN
+F 2 "" H 2600 11850 50  0001 C CNN
+F 3 "" H 2600 11850 50  0001 C CNN
+	1    2600 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun:USB_B_Micro J4
+U 1 1 5C75B167
+P 2600 11350
+F 0 "J4" H 2655 11817 50  0000 C CNN
+F 1 "Power" H 2655 11726 50  0000 C CNN
+F 2 "indicator-fun-v3s:USB-B-Micro" H 2750 11300 50  0001 C CNN
+F 3 "~" H 2750 11300 50  0001 C CNN
+	1    2600 11350
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:+5V #P+?
+U 1 0 5C762750
+P 3400 10550
+AR Path="/5C762750" Ref="#P+?"  Part="1" 
+AR Path="/5C22FC36/5C762750" Ref="#P+02"  Part="1" 
+F 0 "#P+02" H 3400 10550 50  0001 C CNN
+F 1 "+5V" V 3300 10350 59  0000 L BNN
+F 2 "" H 3400 10550 50  0001 C CNN
+F 3 "" H 3400 10550 50  0001 C CNN
+	1    3400 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 10650 3400 10700
+$Comp
+L Interface_USB:CH340G U2
+U 1 1 5C91BEFC
+P 4150 11450
+F 0 "U2" H 4350 12000 50  0000 C CNN
+F 1 "CH340G" H 4450 12100 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4200 10900 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 3800 12250 50  0001 C CNN
+	1    4150 11450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 11350 3750 11350
+Wire Wire Line
+	3750 11450 2900 11450
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND?
+U 1 0 5C92FCE7
+P 4150 12150
+AR Path="/5C92FCE7" Ref="#GND?"  Part="1" 
+AR Path="/5C22FC36/5C92FCE7" Ref="#GND05"  Part="1" 
+F 0 "#GND05" H 4150 12150 50  0001 C CNN
+F 1 "GND" H 4250 12150 59  0000 L BNN
+F 2 "" H 4150 12150 50  0001 C CNN
+F 3 "" H 4150 12150 50  0001 C CNN
+	1    4150 12150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 11150 2    50   Input ~ 0
+UART0/TX
+Wire Wire Line
+	4550 11150 4700 11150
+Text GLabel 4700 11050 2    50   Input ~ 0
+UART0/RX
+Wire Wire Line
+	4550 11050 4700 11050
+Wire Wire Line
+	4150 10850 4150 10700
+Wire Wire Line
+	4150 10700 3400 10700
+Connection ~ 3400 10700
+Wire Wire Line
+	3400 10700 3400 11150
+$Comp
+L indicator-fun-v3s-eagle-import:+3V3 #V?
+U 1 0 5C97EBAD
+P 4050 10550
+AR Path="/5C97EBAD" Ref="#V?"  Part="1" 
+AR Path="/5C22FC36/5C97EBAD" Ref="#V01"  Part="1" 
+F 0 "#V01" H 4050 10550 50  0001 C CNN
+F 1 "+3V3" H 3900 10575 59  0000 L BNN
+F 2 "" H 4050 10550 50  0001 C CNN
+F 3 "" H 4050 10550 50  0001 C CNN
+	1    4050 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 10850 4050 10650
+$Comp
+L INDICATOR-FUN:CSTCE12M0G52-R0 X1
+U 1 1 5C37A837
+P 3300 11800
+F 0 "X1" H 3250 12050 50  0000 C CNN
+F 1 "CSTCE12M0G52-R0" H 3300 11500 50  0000 C CNN
+F 2 "indicator-fun-v3s:CSTCE12M0G52-R0" H 3300 11450 50  0001 C CNN
+F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 3200 11800 50  0001 C CNN
+	1    3300 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 11650 3600 11650
+Wire Wire Line
+	3600 11950 3750 11950
+Wire Wire Line
+	3750 11950 3750 11850
+$Comp
+L indicator-fun-v3s-eagle-import:GND #GND?
+U 1 0 5C388831
+P 3000 11900
+AR Path="/5C388831" Ref="#GND?"  Part="1" 
+AR Path="/5C22FC36/5C388831" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 3000 11900 50  0001 C CNN
+F 1 "GND" H 2900 11800 59  0000 L BNN
+F 2 "" H 3000 11900 50  0001 C CNN
+F 3 "" H 3000 11900 50  0001 C CNN
+	1    3000 11900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

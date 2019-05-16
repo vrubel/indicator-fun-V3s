@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name indicator-fun-v3s-eagle-import)(type Legacy)(uri ${KIPRJMOD}/indicator-fun-v3s-eagle-import.lib)(options "")(descr ""))
+  (lib (name MyAntennas)(type Legacy)(uri ${KIPRJMOD}/MyAntennas.lib)(options "")(descr ""))
+  (lib (name sw_push_open)(type Legacy)(uri ${KIPRJMOD}/sw_push_open.lib)(options "")(descr ""))
+  (lib (name indicator-fun)(type Legacy)(uri ${KIPRJMOD}/indicator-fun.lib)(options "")(descr ""))
+  (lib (name indicator-fun-v3s-rescue)(type Legacy)(uri ${KIPRJMOD}/indicator-fun-v3s-rescue.lib)(options "")(descr ""))
+  (lib (name SHTC1)(type Legacy)(uri ${KIPRJMOD}/SHTC1.lib)(options "")(descr ""))
+  (lib (name SGP30)(type Legacy)(uri ${KIPRJMOD}/SGP30.lib)(options "")(descr ""))
+  (lib (name LIS2DH12TR)(type Legacy)(uri ${KIPRJMOD}/LIS2DH12TR.lib)(options "")(descr ""))
+  (lib (name BH1730FVC-TR)(type Legacy)(uri ${KIPRJMOD}/BH1730FVC-TR.lib)(options "")(descr ""))
+)

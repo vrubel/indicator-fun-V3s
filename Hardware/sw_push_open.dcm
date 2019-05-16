@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_Push_Open
+D Push button switch, push-to-open, generic, two pins
+K switch normally-closed pushbutton push-button
+$ENDCMP
+#
+#End Doc Library
