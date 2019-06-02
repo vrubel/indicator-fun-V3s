@@ -437,18 +437,7 @@ Connection ~ 7800 11000
 Text GLabel 7700 11200 0    10   BiDi ~ 0
 GND
 Wire Wire Line
-	4000 11200 3900 11200
-Wire Wire Line
-	3900 11200 3900 11000
-Wire Wire Line
-	3900 11000 3900 10800
-Wire Wire Line
-	3900 10800 4000 10800
-Wire Wire Line
 	3800 11000 3900 11000
-Connection ~ 3900 11000
-Text GLabel 4000 11200 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	4200 10000 4200 10100
 Text GLabel 4200 10000 0    10   BiDi ~ 0
@@ -718,22 +707,6 @@ Wire Wire Line
 	7200 10900 7200 10800
 Connection ~ 7200 10800
 Connection ~ 6900 10800
-Wire Wire Line
-	5000 11100 5000 11200
-Wire Wire Line
-	5000 11200 4500 11200
-Wire Wire Line
-	4500 11200 4500 11100
-Wire Wire Line
-	4500 11200 4300 11200
-Connection ~ 4500 11200
-Wire Wire Line
-	5000 10800 4500 10800
-Wire Wire Line
-	4500 10800 4500 10900
-Wire Wire Line
-	4500 10800 4300 10800
-Connection ~ 4500 10800
 Wire Wire Line
 	5000 10500 4800 10500
 Wire Wire Line
@@ -1143,19 +1116,6 @@ F 3 "" H 7400 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L indicator-fun-v3s-eagle-import:CRYSTALHC49U-V Q1
-U 1 0 CB736C6A67AF32FD
-P 4500 11000
-AR Path="/CB736C6A67AF32FD" Ref="Q1"  Part="1" 
-AR Path="/5C230006/CB736C6A67AF32FD" Ref="Q1"  Part="1" 
-F 0 "Q1" H 4600 11040 59  0000 L BNN
-F 1 "24Mhz" H 4600 10900 59  0000 L BNN
-F 2 "indicator-fun-v3s:HC49U-V" H 4500 11000 50  0001 C CNN
-F 3 "" H 4500 11000 50  0001 C CNN
-	1    4500 11000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L indicator-fun-v3s-eagle-import:CRYSTALTC38H Q2
 U 1 0 8BE5DE9B432A65FA
 P 7200 11000
@@ -1163,7 +1123,7 @@ AR Path="/8BE5DE9B432A65FA" Ref="Q2"  Part="1"
 AR Path="/5C230006/8BE5DE9B432A65FA" Ref="Q2"  Part="1" 
 F 0 "Q2" H 7300 11040 59  0000 L BNN
 F 1 "32kHz" H 7300 10900 59  0000 L BNN
-F 2 "indicator-fun-v3s:TC38H" H 7200 11000 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" H 7200 11000 50  0001 C CNN
 F 3 "" H 7200 11000 50  0001 C CNN
 	1    7200 11000
 	0    -1   -1   0   
@@ -2573,7 +2533,7 @@ Wire Wire Line
 	7400 2800 6800 2800
 Wire Wire Line
 	7400 2400 7400 2800
-Text Label 4750 10800 0    50   ~ 0
+Text Label 4700 10800 0    50   ~ 0
 x24min
 Text Label 4600 11200 0    50   ~ 0
 x24mount
@@ -2607,17 +2567,6 @@ Wire Wire Line
 	4800 2600 4700 2600
 Text Label 4700 2600 2    50   ~ 0
 for_delete
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5C67F473
-P 4700 2250
-F 0 "TP2" H 4758 2370 50  0000 L CNN
-F 1 "TestPoint" H 4758 2279 50  0000 L CNN
-F 2 "indicator-fun-v3s:TestPoint_Pad_1.0x1.0mm" H 4900 2250 50  0001 C CNN
-F 3 "~" H 4900 2250 50  0001 C CNN
-	1    4700 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 2250 4700 2600
 $Comp
@@ -2631,4 +2580,46 @@ F 3 "" H 3700 10700 50  0001 C CNN
 	1    3700 10500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3900 10400 3900 10500
+Connection ~ 3900 10500
+Wire Wire Line
+	3500 10400 3500 10500
+Connection ~ 3500 10500
+Wire Wire Line
+	4000 10800 3900 10800
+Wire Wire Line
+	3900 10800 3900 11000
+Wire Wire Line
+	4000 11200 3900 11200
+Wire Wire Line
+	3900 11200 3900 11000
+Connection ~ 3900 11000
+Wire Wire Line
+	5000 11200 5000 11100
+Wire Wire Line
+	4300 11200 4500 11200
+Wire Wire Line
+	4300 10800 4500 10800
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 5CF64FB6
+P 4500 11000
+F 0 "Y1" V 4454 11166 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 4545 11166 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm" H 4500 11000 50  0001 C CNN
+F 3 "~" H 4500 11000 50  0001 C CNN
+	1    4500 11000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 10900 4500 10800
+Connection ~ 4500 10800
+Wire Wire Line
+	4500 10800 5000 10800
+Wire Wire Line
+	4500 11100 4500 11200
+Connection ~ 4500 11200
+Wire Wire Line
+	4500 11200 5000 11200
 $EndSCHEMATC
