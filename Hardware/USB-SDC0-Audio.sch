@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:indicator-fun-v3s-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 18206 13522
 encoding utf-8
@@ -416,7 +416,7 @@ Text GLabel 4350 10200 2    70   BiDi ~ 0
 USB/ID
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C9
-U 1 0 2B9EDA2C38F91BEE
+U 1 1 38F91BEE
 P 4100 12450
 AR Path="/2B9EDA2C38F91BEE" Ref="C9"  Part="1" 
 AR Path="/5C22FC36/2B9EDA2C38F91BEE" Ref="C9"  Part="1" 
@@ -429,7 +429,7 @@ F 3 "" H 4100 12450 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3 #V11
-U 1 0 DA9C168363D2F0C2
+U 1 1 63D2F0C2
 P 3800 12450
 AR Path="/DA9C168363D2F0C2" Ref="#V11"  Part="1" 
 AR Path="/5C22FC36/DA9C168363D2F0C2" Ref="#V011"  Part="1" 
@@ -442,7 +442,7 @@ F 3 "" H 3800 12450 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND20
-U 1 0 1D4613EF2DF12463
+U 1 1 2DF12463
 P 4500 12450
 AR Path="/1D4613EF2DF12463" Ref="#GND20"  Part="1" 
 AR Path="/5C22FC36/1D4613EF2DF12463" Ref="#GND020"  Part="1" 
@@ -455,7 +455,7 @@ F 3 "" H 4500 12450 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3 #V12
-U 1 0 478522CCB92CBE9F
+U 1 1 B92CBE9F
 P 12100 6900
 AR Path="/478522CCB92CBE9F" Ref="#V12"  Part="1" 
 AR Path="/5C22FC36/478522CCB92CBE9F" Ref="#V012"  Part="1" 
@@ -468,7 +468,7 @@ F 3 "" H 12100 6900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND24
-U 1 0 D2BA7EC8664B2FAE
+U 1 1 664B2FAE
 P 14400 8450
 AR Path="/D2BA7EC8664B2FAE" Ref="#GND24"  Part="1" 
 AR Path="/5C22FC36/D2BA7EC8664B2FAE" Ref="#GND024"  Part="1" 
@@ -481,7 +481,7 @@ F 3 "" H 14400 8450 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3 #V21
-U 1 0 6E59F73C063ED727
+U 1 1 063ED727
 P 14400 7000
 AR Path="/6E59F73C063ED727" Ref="#V21"  Part="1" 
 AR Path="/5C22FC36/6E59F73C063ED727" Ref="#V021"  Part="1" 
@@ -494,7 +494,7 @@ F 3 "" H 14400 7000 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND90
-U 1 0 D32989263EC27FB9
+U 1 1 3EC27FB9
 P 16000 7700
 AR Path="/D32989263EC27FB9" Ref="#GND90"  Part="1" 
 AR Path="/5C22FC36/D32989263EC27FB9" Ref="#GND090"  Part="1" 
@@ -507,7 +507,7 @@ F 3 "" H 16000 7700 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:TRANSFLASH-LOCK J1
-U 1 0 283100E32CE6A523
+U 1 1 2CE6A523
 P 15100 7500
 AR Path="/283100E32CE6A523" Ref="J1"  Part="1" 
 AR Path="/5C22FC36/283100E32CE6A523" Ref="J1"  Part="1" 
@@ -520,7 +520,7 @@ F 3 "" H 15100 7500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:V3S U$1
-U 5 0 850A8AB0BABD3B33
+U 5 1 BABD3B33
 P 6800 7200
 AR Path="/850A8AB0BABD3B33" Ref="U$1"  Part="5" 
 AR Path="/5C22FC36/850A8AB0BABD3B33" Ref="U$1"  Part="5" 
@@ -533,7 +533,7 @@ F 3 "" H 6800 7200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R15
-U 1 0 6F989C1CA4DA1F49
+U 1 1 A4DA1F49
 P 6400 3300
 AR Path="/6F989C1CA4DA1F49" Ref="R15"  Part="1" 
 AR Path="/5C22FC36/6F989C1CA4DA1F49" Ref="R15"  Part="1" 
@@ -546,7 +546,7 @@ F 3 "" H 6400 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:V3S U$1
-U 3 0 850A8AB0BABD3B2B
+U 3 1 BABD3B2B
 P 13800 5100
 AR Path="/850A8AB0BABD3B2B" Ref="U$1"  Part="3" 
 AR Path="/5C22FC36/850A8AB0BABD3B2B" Ref="U$1"  Part="3" 
@@ -559,7 +559,7 @@ F 3 "" H 13800 5100 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:V3S U$1
-U 1 0 850A8AB0BABD3B23
+U 1 1 BABD3B23
 P 6800 5400
 AR Path="/850A8AB0BABD3B23" Ref="U$1"  Part="1" 
 AR Path="/5C22FC36/850A8AB0BABD3B23" Ref="U$1"  Part="1" 
@@ -572,7 +572,7 @@ F 3 "" H 6800 5400 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:AUDIO_JACK_TRRSSMD_RA J2
-U 1 0 9476A0D1D27BF6B5
+U 1 1 D27BF6B5
 P 6500 2800
 AR Path="/9476A0D1D27BF6B5" Ref="J2"  Part="1" 
 AR Path="/5C22FC36/9476A0D1D27BF6B5" Ref="J2"  Part="1" 
@@ -585,7 +585,7 @@ F 3 "" H 6500 2800 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R25
-U 1 0 8CE3D0E3A6B2995B
+U 1 1 A6B2995B
 P 7500 2600
 AR Path="/8CE3D0E3A6B2995B" Ref="R25"  Part="1" 
 AR Path="/5C22FC36/8CE3D0E3A6B2995B" Ref="R25"  Part="1" 
@@ -598,7 +598,7 @@ F 3 "" H 7500 2600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND52
-U 1 0 4C2E9A1697122CDC
+U 1 1 97122CDC
 P 7800 3300
 AR Path="/4C2E9A1697122CDC" Ref="#GND52"  Part="1" 
 AR Path="/5C22FC36/4C2E9A1697122CDC" Ref="#GND052"  Part="1" 
@@ -611,7 +611,7 @@ F 3 "" H 7800 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND53
-U 1 0 65A4B075B7E5E056
+U 1 1 B7E5E056
 P 6000 3300
 AR Path="/65A4B075B7E5E056" Ref="#GND53"  Part="1" 
 AR Path="/5C22FC36/65A4B075B7E5E056" Ref="#GND053"  Part="1" 
@@ -624,7 +624,7 @@ F 3 "" H 6000 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C17
-U 1 0 7F4FAA0C0930454B
+U 1 1 0930454B
 P 7800 2800
 AR Path="/7F4FAA0C0930454B" Ref="C17"  Part="1" 
 AR Path="/5C22FC36/7F4FAA0C0930454B" Ref="C17"  Part="1" 
@@ -637,7 +637,7 @@ F 3 "" H 7800 2800 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C18
-U 1 0 DDC469504DA42C9A
+U 1 1 4DA42C9A
 P 6800 3300
 AR Path="/DDC469504DA42C9A" Ref="C18"  Part="1" 
 AR Path="/5C22FC36/DDC469504DA42C9A" Ref="C18"  Part="1" 
@@ -650,7 +650,7 @@ F 3 "" H 6800 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R26
-U 1 0 6BB46A3649E84652
+U 1 1 49E84652
 P 7100 3600
 AR Path="/6BB46A3649E84652" Ref="R26"  Part="1" 
 AR Path="/5C22FC36/6BB46A3649E84652" Ref="R26"  Part="1" 
@@ -663,7 +663,7 @@ F 3 "" H 7100 3600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3A #V13
-U 1 0 95113115176414C0
+U 1 1 176414C0
 P 2400 4700
 AR Path="/95113115176414C0" Ref="#V13"  Part="1" 
 AR Path="/5C22FC36/95113115176414C0" Ref="#V013"  Part="1" 
@@ -676,7 +676,7 @@ F 3 "" H 2400 4700 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0805 C16
-U 1 0 AA00DC91C8289A19
+U 1 1 C8289A19
 P 2400 5200
 AR Path="/AA00DC91C8289A19" Ref="C16"  Part="1" 
 AR Path="/5C22FC36/AA00DC91C8289A19" Ref="C16"  Part="1" 
@@ -689,7 +689,7 @@ F 3 "" H 2400 5200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C19
-U 1 0 27308BA0429AAC70
+U 1 1 429AAC70
 P 2800 5200
 AR Path="/27308BA0429AAC70" Ref="C19"  Part="1" 
 AR Path="/5C22FC36/27308BA0429AAC70" Ref="C19"  Part="1" 
@@ -702,7 +702,7 @@ F 3 "" H 2800 5200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND8
-U 1 0 167E2C6ADF24F9E8
+U 1 1 DF24F9E8
 P 2600 5600
 AR Path="/167E2C6ADF24F9E8" Ref="#GND8"  Part="1" 
 AR Path="/5C22FC36/167E2C6ADF24F9E8" Ref="#GND08"  Part="1" 
@@ -715,7 +715,7 @@ F 3 "" H 2600 5600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0805 C20
-U 1 0 E3294C4E37547D18
+U 1 1 37547D18
 P 3400 5200
 AR Path="/E3294C4E37547D18" Ref="C20"  Part="1" 
 AR Path="/5C22FC36/E3294C4E37547D18" Ref="C20"  Part="1" 
@@ -728,7 +728,7 @@ F 3 "" H 3400 5200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R27
-U 1 0 C0378EAB3A8C453D
+U 1 1 3A8C453D
 P 3800 5100
 AR Path="/C0378EAB3A8C453D" Ref="R27"  Part="1" 
 AR Path="/5C22FC36/C0378EAB3A8C453D" Ref="R27"  Part="1" 
@@ -741,7 +741,7 @@ F 3 "" H 3800 5100 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND54
-U 1 0 B2E0E96F28BF559
+U 1 1 F28BF559
 P 3600 5600
 AR Path="/B2E0E96F28BF559" Ref="#GND54"  Part="1" 
 AR Path="/5C22FC36/B2E0E96F28BF559" Ref="#GND054"  Part="1" 
@@ -754,7 +754,7 @@ F 3 "" H 3600 5600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C21
-U 1 0 13892E5A38F280A0
+U 1 1 38F280A0
 P 4400 5200
 AR Path="/13892E5A38F280A0" Ref="C21"  Part="1" 
 AR Path="/5C22FC36/13892E5A38F280A0" Ref="C21"  Part="1" 
@@ -767,7 +767,7 @@ F 3 "" H 4400 5200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND55
-U 1 0 4FDFD77FC8E78D2D
+U 1 1 C8E78D2D
 P 4400 5500
 AR Path="/4FDFD77FC8E78D2D" Ref="#GND55"  Part="1" 
 AR Path="/5C22FC36/4FDFD77FC8E78D2D" Ref="#GND055"  Part="1" 
@@ -780,7 +780,7 @@ F 3 "" H 4400 5500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND56
-U 1 0 F0E523FA24E1D674
+U 1 1 24E1D674
 P 2400 3900
 AR Path="/F0E523FA24E1D674" Ref="#GND56"  Part="1" 
 AR Path="/5C22FC36/F0E523FA24E1D674" Ref="#GND056"  Part="1" 
@@ -793,7 +793,7 @@ F 3 "" H 2400 3900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R30
-U 1 0 7F1F3043CF223410
+U 1 1 CF223410
 P 3300 2500
 AR Path="/7F1F3043CF223410" Ref="R30"  Part="1" 
 AR Path="/5C22FC36/7F1F3043CF223410" Ref="R30"  Part="1" 
@@ -806,7 +806,7 @@ F 3 "" H 3300 2500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C23
-U 1 0 DED56EC0D75966
+U 1 1 C0D75966
 P 2800 2900
 AR Path="/DED56EC0D75966" Ref="C23"  Part="1" 
 AR Path="/5C22FC36/DED56EC0D75966" Ref="C23"  Part="1" 
@@ -819,7 +819,7 @@ F 3 "" H 2800 2900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C24
-U 1 0 B0B03C8377DB1C18
+U 1 1 77DB1C18
 P 2800 3600
 AR Path="/B0B03C8377DB1C18" Ref="C24"  Part="1" 
 AR Path="/5C22FC36/B0B03C8377DB1C18" Ref="C24"  Part="1" 
@@ -832,7 +832,7 @@ F 3 "" H 2800 3600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND57
-U 1 0 8647E2494BC0C1E5
+U 1 1 4BC0C1E5
 P 2400 3600
 AR Path="/8647E2494BC0C1E5" Ref="#GND57"  Part="1" 
 AR Path="/5C22FC36/8647E2494BC0C1E5" Ref="#GND057"  Part="1" 
@@ -845,7 +845,7 @@ F 3 "" H 2400 3600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND58
-U 1 0 96F73E150D44CE24
+U 1 1 0D44CE24
 P 2400 2900
 AR Path="/96F73E150D44CE24" Ref="#GND58"  Part="1" 
 AR Path="/5C22FC36/96F73E150D44CE24" Ref="#GND058"  Part="1" 
@@ -858,7 +858,7 @@ F 3 "" H 2400 2900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C25
-U 1 0 D73F7BACF2431960
+U 1 1 F2431960
 P 3600 3300
 AR Path="/D73F7BACF2431960" Ref="C25"  Part="1" 
 AR Path="/5C22FC36/D73F7BACF2431960" Ref="C25"  Part="1" 
@@ -871,7 +871,7 @@ F 3 "" H 3600 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND59
-U 1 0 48DBC90944E035C1
+U 1 1 44E035C1
 P 2400 2500
 AR Path="/48DBC90944E035C1" Ref="#GND59"  Part="1" 
 AR Path="/5C22FC36/48DBC90944E035C1" Ref="#GND059"  Part="1" 
@@ -884,7 +884,7 @@ F 3 "" H 2400 2500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C26
-U 1 0 62CE581599EA62CC
+U 1 1 99EA62CC
 P 2700 2500
 AR Path="/62CE581599EA62CC" Ref="C26"  Part="1" 
 AR Path="/5C22FC36/62CE581599EA62CC" Ref="C26"  Part="1" 
@@ -897,7 +897,7 @@ F 3 "" H 2700 2500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3A #V22
-U 1 0 F21025188931440B
+U 1 1 8931440B
 P 3000 2200
 AR Path="/F21025188931440B" Ref="#V22"  Part="1" 
 AR Path="/5C22FC36/F21025188931440B" Ref="#V022"  Part="1" 
@@ -910,7 +910,7 @@ F 3 "" H 3000 2200 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C27
-U 1 0 D4D2449736F0CB85
+U 1 1 36F0CB85
 P 4000 2900
 AR Path="/D4D2449736F0CB85" Ref="C27"  Part="1" 
 AR Path="/5C22FC36/D4D2449736F0CB85" Ref="C27"  Part="1" 
@@ -923,7 +923,7 @@ F 3 "" H 4000 2900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C28
-U 1 0 8F200C7205E275C3
+U 1 1 05E275C3
 P 4000 3600
 AR Path="/8F200C7205E275C3" Ref="C28"  Part="1" 
 AR Path="/5C22FC36/8F200C7205E275C3" Ref="C28"  Part="1" 
@@ -936,7 +936,7 @@ F 3 "" H 4000 3600 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R28
-U 1 0 35817517EFDBCC36
+U 1 1 EFDBCC36
 P 3300 3900
 AR Path="/35817517EFDBCC36" Ref="R28"  Part="1" 
 AR Path="/5C22FC36/35817517EFDBCC36" Ref="R28"  Part="1" 
@@ -949,7 +949,7 @@ F 3 "" H 3300 3900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3 #V24
-U 1 0 F18181D8E5F6AC25
+U 1 1 E5F6AC25
 P 8300 4900
 AR Path="/F18181D8E5F6AC25" Ref="#V24"  Part="1" 
 AR Path="/5C22FC36/F18181D8E5F6AC25" Ref="#V024"  Part="1" 
@@ -962,7 +962,7 @@ F 3 "" H 8300 4900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0805 C29
-U 1 0 EC4831814E7D8F82
+U 1 1 4E7D8F82
 P 9200 5800
 AR Path="/EC4831814E7D8F82" Ref="C29"  Part="1" 
 AR Path="/5C22FC36/EC4831814E7D8F82" Ref="C29"  Part="1" 
@@ -975,7 +975,7 @@ F 3 "" H 9200 5800 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND61
-U 1 0 2BBC3C5CD91DE639
+U 1 1 D91DE639
 P 8700 6100
 AR Path="/2BBC3C5CD91DE639" Ref="#GND61"  Part="1" 
 AR Path="/5C22FC36/2BBC3C5CD91DE639" Ref="#GND061"  Part="1" 
@@ -988,7 +988,7 @@ F 3 "" H 8700 6100 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C22
-U 1 0 6DA554679DAD5B4
+U 1 1 79DAD5B4
 P 8700 5700
 AR Path="/6DA554679DAD5B4" Ref="C22"  Part="1" 
 AR Path="/5C22FC36/6DA554679DAD5B4" Ref="C22"  Part="1" 
@@ -1001,7 +1001,7 @@ F 3 "" H 8700 5700 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND62
-U 1 0 95F86196F68AF8FF
+U 1 1 F68AF8FF
 P 9200 6100
 AR Path="/95F86196F68AF8FF" Ref="#GND62"  Part="1" 
 AR Path="/5C22FC36/95F86196F68AF8FF" Ref="#GND062"  Part="1" 
@@ -1014,7 +1014,7 @@ F 3 "" H 9200 6100 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:ELECTRET_MICROPHON-F6035AP MIC
-U 1 0 8CC3F9C69FD73AE4
+U 1 1 9FD73AE4
 P 2500 3300
 AR Path="/8CC3F9C69FD73AE4" Ref="MIC"  Part="1" 
 AR Path="/5C22FC36/8CC3F9C69FD73AE4" Ref="MIC1"  Part="1" 
@@ -1027,7 +1027,7 @@ F 3 "" H 2500 3300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
-U 1 0 AFA1633BFFC1ED88
+U 1 1 FFC1ED88
 P 12500 7100
 AR Path="/AFA1633BFFC1ED88" Ref="RN2"  Part="1" 
 AR Path="/5C22FC36/AFA1633BFFC1ED88" Ref="RN2"  Part="1" 
@@ -1040,7 +1040,7 @@ F 3 "" H 12500 7100 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
-U 2 0 AFA1633BFFC1ED84
+U 2 1 FFC1ED84
 P 12500 7300
 AR Path="/AFA1633BFFC1ED84" Ref="RN2"  Part="2" 
 AR Path="/5C22FC36/AFA1633BFFC1ED84" Ref="RN2"  Part="2" 
@@ -1053,7 +1053,7 @@ F 3 "" H 12500 7300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
-U 3 0 AFA1633BFFC1ED80
+U 3 1 FFC1ED80
 P 12500 7500
 AR Path="/AFA1633BFFC1ED80" Ref="RN2"  Part="3" 
 AR Path="/5C22FC36/AFA1633BFFC1ED80" Ref="RN2"  Part="3" 
@@ -1066,7 +1066,7 @@ F 3 "" H 12500 7500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:4R-NEXB38V RN2
-U 4 0 AFA1633BFFC1ED9C
+U 4 1 FFC1ED9C
 P 12500 7700
 AR Path="/AFA1633BFFC1ED9C" Ref="RN2"  Part="4" 
 AR Path="/5C22FC36/AFA1633BFFC1ED9C" Ref="RN2"  Part="4" 
@@ -1079,7 +1079,7 @@ F 3 "" H 12500 7700 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R2
-U 1 0 7B9B72E8B0DE96FC
+U 1 1 B0DE96FC
 P 12500 7900
 AR Path="/7B9B72E8B0DE96FC" Ref="R2"  Part="1" 
 AR Path="/5C22FC36/7B9B72E8B0DE96FC" Ref="R2"  Part="1" 
@@ -1092,7 +1092,7 @@ F 3 "" H 12500 7900 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+5V #P+1
-U 1 0 93600057BCDF72C5
+U 1 1 BCDF72C5
 P 3400 9500
 AR Path="/93600057BCDF72C5" Ref="#P+1"  Part="1" 
 AR Path="/5C22FC36/93600057BCDF72C5" Ref="#P+01"  Part="1" 
@@ -1105,7 +1105,7 @@ F 3 "" H 3400 9500 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND15
-U 1 0 CBE454F257B06B4
+U 1 1 257B06B4
 P 2600 10500
 AR Path="/CBE454F257B06B4" Ref="#GND15"  Part="1" 
 AR Path="/5C22FC36/CBE454F257B06B4" Ref="#GND015"  Part="1" 
@@ -1139,7 +1139,7 @@ F 3 "~" H 2750 9950 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R?
-U 1 0 5C495EF7
+U 1 1 5C495EF7
 P 3750 9950
 AR Path="/5C495EF7" Ref="R?"  Part="1" 
 AR Path="/5C22FC36/5C495EF7" Ref="R5"  Part="1" 
@@ -1154,7 +1154,7 @@ Wire Wire Line
 	3750 10150 3750 10200
 $Comp
 L indicator-fun-v3s-eagle-import:R-EU_R0603 R?
-U 1 0 5C49C7E3
+U 1 1 5C49C7E3
 P 4050 10200
 AR Path="/5C49C7E3" Ref="R?"  Part="1" 
 AR Path="/5C22FC36/5C49C7E3" Ref="R6"  Part="1" 
@@ -1184,7 +1184,7 @@ Wire Wire Line
 	12700 7900 14500 7900
 $Comp
 L indicator-fun-v3s-eagle-import:C-EUC0603 C?
-U 1 0 5C4E7C07
+U 1 1 5C4E7C07
 P 14150 8100
 AR Path="/5C4E7C07" Ref="C?"  Part="1" 
 AR Path="/5C22FC36/5C4E7C07" Ref="C5"  Part="1" 
@@ -1204,7 +1204,7 @@ Wire Wire Line
 	14150 8300 14150 8350
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND?
-U 1 0 5C4F4D25
+U 1 1 5C4F4D25
 P 14150 8450
 AR Path="/5C4F4D25" Ref="#GND?"  Part="1" 
 AR Path="/5C22FC36/5C4F4D25" Ref="#GND02"  Part="1" 
@@ -1224,7 +1224,7 @@ Text GLabel 2900 11150 0    10   BiDi ~ 0
 +5V
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND?
-U 1 0 5C75B161
+U 1 1 5C75B161
 P 2600 11850
 AR Path="/5C75B161" Ref="#GND?"  Part="1" 
 AR Path="/5C22FC36/5C75B161" Ref="#GND04"  Part="1" 
@@ -1248,7 +1248,7 @@ F 3 "~" H 2750 11300 50  0001 C CNN
 $EndComp
 $Comp
 L indicator-fun-v3s-eagle-import:+5V #P+?
-U 1 0 5C762750
+U 1 1 5C762750
 P 3400 10550
 AR Path="/5C762750" Ref="#P+?"  Part="1" 
 AR Path="/5C22FC36/5C762750" Ref="#P+02"  Part="1" 
@@ -1278,7 +1278,7 @@ Wire Wire Line
 	3750 11450 2900 11450
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND?
-U 1 0 5C92FCE7
+U 1 1 5C92FCE7
 P 4150 12150
 AR Path="/5C92FCE7" Ref="#GND?"  Part="1" 
 AR Path="/5C22FC36/5C92FCE7" Ref="#GND05"  Part="1" 
@@ -1306,7 +1306,7 @@ Wire Wire Line
 	3400 10700 3400 11150
 $Comp
 L indicator-fun-v3s-eagle-import:+3V3 #V?
-U 1 0 5C97EBAD
+U 1 1 5C97EBAD
 P 4050 10550
 AR Path="/5C97EBAD" Ref="#V?"  Part="1" 
 AR Path="/5C22FC36/5C97EBAD" Ref="#V01"  Part="1" 
@@ -1338,7 +1338,7 @@ Wire Wire Line
 	3750 11950 3750 11850
 $Comp
 L indicator-fun-v3s-eagle-import:GND #GND?
-U 1 0 5C388831
+U 1 1 5C388831
 P 3000 11900
 AR Path="/5C388831" Ref="#GND?"  Part="1" 
 AR Path="/5C22FC36/5C388831" Ref="#GND07"  Part="1" 
