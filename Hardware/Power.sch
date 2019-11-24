@@ -598,12 +598,8 @@ Text GLabel 12100 2400 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	13400 2300 13400 2400
-Text GLabel 13400 2300 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	12700 2400 12700 2300
-Text GLabel 12700 2400 0    10   BiDi ~ 0
-GND
 Wire Wire Line
 	14000 6100 14000 6200
 Wire Wire Line
@@ -1440,20 +1436,6 @@ F 3 "" H 13400 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L indicator-fun-v3s-eagle-import:GND #GND92
-U 1 1 1D4C250A
-P 13400 2500
-AR Path="/B1744BC31D4C250A" Ref="#GND92"  Part="1" 
-AR Path="/5C230006/B1744BC31D4C250A" Ref="#GND092"  Part="1" 
-AR Path="/5C230006/1D4C250A" Ref="#GND092"  Part="1" 
-F 0 "#GND092" H 13400 2500 50  0001 C CNN
-F 1 "GND" H 13300 2400 59  0000 L BNN
-F 2 "" H 13400 2500 50  0001 C CNN
-F 3 "" H 13400 2500 50  0001 C CNN
-	1    13400 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L indicator-fun-v3s-eagle-import:+5V #P+15
 U 1 1 E802E752
 P 12100 1700
@@ -2098,20 +2080,6 @@ F 3 "" H 12700 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L indicator-fun-v3s-eagle-import:GND #GND101
-U 1 1 0198EF04
-P 12700 2500
-AR Path="/D284FC620198EF04" Ref="#GND101"  Part="1" 
-AR Path="/5C230006/D284FC620198EF04" Ref="#GND0101"  Part="1" 
-AR Path="/5C230006/0198EF04" Ref="#GND0101"  Part="1" 
-F 0 "#GND0101" H 12700 2500 50  0001 C CNN
-F 1 "GND" H 12600 2400 59  0000 L BNN
-F 2 "" H 12700 2500 50  0001 C CNN
-F 3 "" H 12700 2500 50  0001 C CNN
-	1    12700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L indicator-fun-v3s-eagle-import:GND #GND71
 U 1 1 245479FB
 P 14300 6400
@@ -2748,4 +2716,48 @@ Wire Wire Line
 Connection ~ 4500 11200
 Wire Wire Line
 	4500 11200 5000 11200
+$Comp
+L power:GNDA #PWR0111
+U 1 1 5DEB31BA
+P 13400 2400
+F 0 "#PWR0111" H 13400 2150 50  0001 C CNN
+F 1 "GNDA" H 13405 2227 50  0000 C CNN
+F 2 "" H 13400 2400 50  0001 C CNN
+F 3 "" H 13400 2400 50  0001 C CNN
+	1    13400 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 2250 2    50   Input ~ 0
+AGND
+$Comp
+L power:GNDA #PWR0112
+U 1 1 5DEB4E72
+P 12700 2400
+F 0 "#PWR0112" H 12700 2150 50  0001 C CNN
+F 1 "GNDA" H 12705 2227 50  0000 C CNN
+F 2 "" H 12700 2400 50  0001 C CNN
+F 3 "" H 12700 2400 50  0001 C CNN
+	1    12700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L indicator-fun-v3s-eagle-import:R-EU_R0603 R?
+U 1 1 5DEB5B58
+P 12400 2400
+AR Path="/8FCE958F5DEB5B58" Ref="R?"  Part="1" 
+AR Path="/5C230006/8FCE958F5DEB5B58" Ref="R?"  Part="1" 
+AR Path="/5C230006/5DEB5B58" Ref="R22"  Part="1" 
+F 0 "R22" H 12250 2459 59  0000 L BNN
+F 1 "0" H 12250 2270 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12400 2400 50  0001 C CNN
+F 3 "" H 12400 2400 50  0001 C CNN
+	1    12400 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12700 2400 12600 2400
+Connection ~ 12700 2400
+Wire Wire Line
+	12200 2400 12100 2400
+Connection ~ 12100 2400
 $EndSCHEMATC

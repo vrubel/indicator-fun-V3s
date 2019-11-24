@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 179)
+    (start_pass_no 114)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -42,12 +42,12 @@
     )
     (attach off)
   )
-  (padstack "Via[0-1]_4000:3200_um"
+  (padstack "Via[0-1]_500:300_um"
     (shape
-      (circle F.Cu 4000.0 0.0 0.0)
+      (circle F.Cu 500.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 4000.0 0.0 0.0)
+      (circle B.Cu 500.0 0.0 0.0)
     )
     (attach off)
   )
@@ -60,12 +60,12 @@
     )
     (attach off)
   )
-  (padstack "Via[0-1]_500:300_um"
+  (padstack "Via[0-1]_4000:3200_um"
     (shape
-      (circle F.Cu 500.0 0.0 0.0)
+      (circle F.Cu 4000.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 500.0 0.0 0.0)
+      (circle B.Cu 4000.0 0.0 0.0)
     )
     (attach off)
   )
@@ -183,7 +183,7 @@
     "/USB-SDC0-Audio/MIC_HBIAS" "/USB-SDC0-Audio/HP_COM" "/USB-SDC0-Audio/VRA2" "/USB-SDC0-Audio/VRA1" "/USB-SDC0-Audio/MICIN1P" "/USB-SDC0-Audio/MICIN1N" "/USB-SDC0-Audio/HP_R" "/USB-SDC0-Audio/HP_L"
     "/USB-SDC0-Audio/USB_D-" "/USB-SDC0-Audio/USB_D+" /WLAN/SPI1/CS "/USB-SDC0-Audio/HP_COMFB" /WLAN/SDC1/CMD /WLAN/SDC1/D2 /WLAN/SDC1/D3 /WLAN/SDC1/D0
     /WLAN/SDC1/D1 /WLAN/SPI1/MISO "/Power/for_delete" /WLAN/SPI1/SCK /WLAN/UART2/TX/PB0 /WLAN/UART2/RX/PB1 /WLAN/UART2/RTS/PB2 /WLAN/UART2/CTS/PB3
-    CS2 "LED_CTL" "Net-(C73-Pad2)" "Net-(C76-Pad2)" "Net-(C76-Pad1)" "Net-(AOut_1-Pad1)" "Net-(AOut_2-Pad1)"
+    CS2 "LED_CTL" "Net-(C73-Pad2)" "Net-(C76-Pad2)" "Net-(C76-Pad1)" "Net-(AOut_1-Pad1)" "Net-(AOut_2-Pad1)" AGND
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
