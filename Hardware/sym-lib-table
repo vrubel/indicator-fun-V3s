@@ -8,4 +8,5 @@
   (lib (name SGP30)(type Legacy)(uri ${KIPRJMOD}/SGP30.lib)(options "")(descr ""))
   (lib (name LIS2DH12TR)(type Legacy)(uri ${KIPRJMOD}/LIS2DH12TR.lib)(options "")(descr ""))
   (lib (name BH1730FVC-TR)(type Legacy)(uri ${KIPRJMOD}/BH1730FVC-TR.lib)(options "")(descr ""))
+  (lib (name MD8002A)(type Legacy)(uri ${KIPRJMOD}/MD8002A.lib)(options "")(descr ""))
 )

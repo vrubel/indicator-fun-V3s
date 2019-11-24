@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:indicator-fun-v3s-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 18206 13246
